@@ -1,0 +1,264 @@
+.dashboard-container {
+  & > div {
+    padding: 7rem 23rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 1400px) {
+      padding: 7rem 15rem;
+    }
+    @media screen and (max-width: 1120px) {
+      padding: 5rem 5rem;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 5rem 2rem;
+      justify-content: center;
+    }
+    p {
+      @media screen and (max-width: 992px) {
+        text-align: center;
+      }
+      &.title {
+        font-family: $font-poppins;
+        font-weight: 700;
+        font-size: 4.2rem;
+        line-height: 5.4rem;
+        max-width: 47rem;
+        &.white {
+          color: $main-white;
+        }
+        &.green {
+          color: $main-black;
+        }
+      }
+      &.description {
+        font-family: $font-inter;
+        font-weight: 300;
+        font-size: 2.4rem;
+        line-height: 3.3rem;
+        max-width: 47rem;
+        margin-top: 3rem;
+        &.white {
+          color: $main-white;
+        }
+        &.green {
+          color: $main-black;
+        }
+      }
+    }
+  }
+  .section-1 {
+    position: relative;
+    background-color: $main-green;
+    .left {
+      @media screen and (max-width: 992px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .register-form {
+        margin-top: 5rem;
+        .privacy-policy {
+          font-family: $font-inter;
+          font-size: 1.2rem;
+          line-height: 1.4rem;
+          color: $main-white;
+          width: 37rem;
+          margin-bottom: 3rem;
+          span {
+            font-family: $font-inter;
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+            &:hover {
+              cursor: pointer;
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: -18rem;
+      @media screen and (max-width: 992px) {
+        display: none;
+      }
+      img {
+        width: 35rem;
+        height: 65rem;
+        @media screen and (max-width: 1120px) {
+          width: 25rem;
+          height: 48rem;
+        }
+      }
+    }
+  }
+  .section-2 {
+    padding: 22rem 18rem;
+    @media screen and (max-width: 1400px) {
+      padding: 22rem 15rem;
+    }
+    @media screen and (max-width: 1120px) {
+      padding: 15rem 5rem;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 5rem 2rem;
+    }
+    .left {
+      margin-right: 18.8rem;
+      @media screen and (max-width: 1120px) {
+        margin-right: 10rem;
+      }
+      @media screen and (max-width: 992px) {
+        display: none;
+      }
+      img {
+        width: 31.5rem;
+        height: 58.7rem;
+      }
+    }
+  }
+  .section-3 {
+    background-color: $main-green;
+    padding: 22rem 18rem;
+    @media screen and (max-width: 1400px) {
+      padding: 22rem 15rem;
+    }
+    @media screen and (max-width: 1120px) {
+      padding: 15rem 5rem;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 5rem 2rem;
+    }
+    .right {
+      img {
+        width: 31.5rem;
+        height: 58.7rem;
+      }
+    }
+  }
+  .section-4 {
+    padding: 22rem 18rem;
+    @media screen and (max-width: 1400px) {
+      padding: 22rem 15rem;
+    }
+    @media screen and (max-width: 1120px) {
+      padding: 15rem 5rem;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 5rem 2rem;
+    }
+    .left {
+      img {
+        width: 31.5rem;
+        height: 58.7rem;
+      }
+    }
+  }
+  .section-5 {
+    background-color: $main-green;
+    padding: 22rem 23rem;
+    position: relative;
+    @media screen and (max-width: 1400px) {
+      padding: 22rem 15rem;
+    }
+    @media screen and (max-width: 1120px) {
+      padding: 12rem 5rem;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 5rem 2rem;
+    }
+    .right {
+      @media screen and (max-width: 992px) {
+        display: none;
+      }
+      img {
+        position: absolute;
+        &.kynder3 {
+          width: 25.2rem;
+          height: 47.4rem;
+          right: 50rem;
+          top: 18rem;
+          @media screen and (max-width: 1400px) {
+            width: 17rem;
+            height: 35rem;
+            right: 40rem;
+          }
+          @media screen and (max-width: 1120px) {
+            width: 11rem;
+            height: 24rem;
+            right: 28rem;
+          }
+          @media screen and (max-width: 992px) {
+            width: 6rem;
+            height: 12rem;
+          }
+        }
+        &.macbook {
+          width: 71rem;
+          height: 47rem;
+          right: 0;
+          top: 9rem;
+          @media screen and (max-width: 1400px) {
+            width: 52.5rem;
+            height: 35rem;
+          }
+          @media screen and (max-width: 1120px) {
+            width: 36rem;
+            height: 24rem;
+          }
+          @media screen and (max-width: 992px) {
+            width: 18rem;
+            height: 12rem;
+          }
+        }
+      }
+    }
+  }
+  .section-6 {
+    padding: 25rem 23rem;
+    @media screen and (max-width: 1400px) {
+      padding: 25rem 15rem;
+    }
+    @media screen and (max-width: 1120px) {
+      padding: 12rem 5rem;
+    }
+    @media screen and (max-width: 992px) {
+      padding: 5rem 2rem;
+    }
+    .left {
+      .description {
+        width: 37rem;
+        font-family: $font-poppins;
+        color: $main-black;
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+      }
+      .download-app {
+        margin-top: 7rem;
+        img {
+          &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+          }
+          &:last-child {
+            margin-left: 3rem;
+          }
+        }
+      }
+    }
+    .right {
+      @media screen and (max-width: 992px) {
+        display: none;
+      }
+      img {
+        width: 37.5rem;
+        height: 70rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.change-password-container {
+  height: 100vh;
+  .change-password-wrapper {
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .change-password-content {
+      .title {
+        font-family: $font-poppins;
+        color: #222222;
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        font-weight: bold;
+      }
+      .description {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        font-family: $font-inter;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        color: #535353;
+        max-width: 77rem;
+      }
+      .btn-group {
+        margin-top: 8rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.confirmed-charity-container {
+  background-color: #008080;
+  height: 100vh;
+  .charity-wrapper {
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .charity-content {
+      .title {
+        font-family: $font-poppins;
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        color: #FAF8F8;
+        font-weight: bold;
+        max-width: 44rem;
+      }
+      .description {
+        margin-top: 3rem;
+        font-family: $font-inter;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        color: #FAF8F8;
+      }
+      .button-group {
+        margin-top: 12rem;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

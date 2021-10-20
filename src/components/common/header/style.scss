@@ -1,0 +1,40 @@
+.common-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2.4rem 0;
+  .logo-wrapper {
+    position: absolute;
+    left: 13.4rem;
+  }
+  .step-item {
+    display: flex;
+    align-items: center;
+    img {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .expand-line {
+      width: 10rem;
+      height: 0.1rem;
+      background-color: #EAEAEA;
+    }
+  }
+  .edit-title {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #222222;
+  }
+  .log-out {
+    position: absolute;
+    right: 14rem;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+    color: #B9000B;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+}

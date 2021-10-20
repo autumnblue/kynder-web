@@ -1,0 +1,26 @@
+.login-container {
+  .forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+    
+    a {
+      color: $main-white;
+    }
+  }
+  .register-link-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 17rem;
+    p {
+      font-family: $font-openSans;
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+      color: $main-white;
+    }
+    a {
+      color: $main-white;
+    }
+  }
+}

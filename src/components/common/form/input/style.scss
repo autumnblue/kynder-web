@@ -1,0 +1,20 @@
+.normal-input {
+  margin-bottom: 1.6rem;
+  input, textarea {
+    font-family: $font-inter;
+    box-sizing: border-box;
+    border: 0.1rem solid #A6A6A6;
+    background-color: $main-white;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    border-radius: 1rem;
+    padding: 1.2rem 1.6rem;
+    min-width: 37rem;
+  }
+  .error-text {
+    margin-top: 0.2rem;
+    color: $error;
+    font-size: 1.6rem;
+    font-family: $font-inter;
+  }
+}

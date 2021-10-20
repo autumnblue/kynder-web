@@ -1,0 +1,100 @@
+.main-settings-container {
+  height: 100vh;
+  .main-settings-wrapper {
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main-settings-content {
+      width: 100%;
+      margin: 0 33rem;
+      .main-settings-top {
+        display: flex;
+        .left, .right {
+          width: 50%;
+          .card-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+            background-color: #FAF8F8;
+            box-shadow: 0px 0px 10px rgba(0, 69, 69, 0.1);
+            border-radius: 1rem;
+            padding: 1.5rem 2rem;
+            margin-bottom: 3rem;
+            &:hover {
+              cursor: pointer;
+              opacity: 0.8;
+            }
+            .card-content {
+              margin-left: 2rem;
+              .card-title {
+                font-family: $font-inter;
+                font-weight: bold;
+                font-size: 1.7rem;
+                line-height: 2.2rem;
+                color: #535353;
+              }
+              .card-description {
+                font-family: $font-inter;
+                margin-top: 0.8rem;
+                font-size: 1.3rem;
+                line-height: 1.7rem;
+                span {
+                  font-family: $font-inter;
+                  margin-top: 0.8rem;
+                  font-size: 1.3rem;
+                  line-height: 1.7rem;
+                }
+              }
+            }
+            .arrow {
+              position: absolute;
+              right: 2rem;
+            }
+          }
+        }
+        .right {
+          margin-left: 3rem;
+        }
+      }
+      .main-settings-bottom {
+        display: flex;
+        margin-top: 5rem;
+        .left, .right {
+          width: 50%;
+          .title {
+            font-family: $font-inter;
+            font-weight: bold;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #222222;
+          }
+          .setting-item {
+            margin: 3rem 0;
+            .item-title {
+              font-family: $font-inter;
+              font-size: 1.8rem;
+              line-height: 2.2rem;
+              color: #222222;
+            }
+            .item-description {
+              font-family: $font-inter;
+              font-size: 1.4rem;
+              line-height: 1.8rem;
+              color: #535353;
+            }
+          }
+        }
+        .right {
+          margin-left: 3rem;
+          display: flex;
+          flex-direction: column;
+          a {
+            align-self: baseline;
+            margin-top: 3rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+// import react toasty style
+@import "../../node_modules/react-toastify/dist/ReactToastify.css";
+@import "../../node_modules/react-toastify/dist/ReactToastify.min.css";
+
+// import carousel style
+@import "~react-responsive-carousel/lib/styles/carousel.css";
+@import "~react-responsive-carousel/lib/styles/carousel.min.css";
+
+// import modal style
+@import "~react-responsive-modal/styles.css";
+
+// import common styles
+@import "./common/colors.scss";
+@import "./common/variables.scss";
+@import "./common/fonts.scss";
+
+// import base styles
+@import "./base/base.scss";
+
+// import header style
+@import "../layouts/header/style.scss";
+
+// import footer style
+@import "../layouts/footer/style.scss";
+
+// import common components styles
+@import "../components/common/form/button/style.scss";
+@import "../components/common/form/input/style.scss";
+@import "../components/common/wrapper/style.scss";
+@import "../components/common/header/style.scss";
+@import "../components/common/modal/style.scss";
+
+// import auth styles
+@import "../components/auth/login/style.scss";
+@import "../components/auth/register/style.scss";
+@import "../components/auth/forgotPwd/style.scss";
+@import "../components/auth/checkInbox/style.scss";
+@import "../components/auth/recoveryCode/style.scss";
+@import "../components/auth/resetPwd/style.scss";
+
+// import dashboard style
+@import "../components/dashboard/style.scss";
+
+// import terms style
+@import "../components/terms/style.scss";
+
+// import onboarding style
+@import "../components/onboarding/style.scss";
+
+// import getStarted style
+@import "../components/getStarted/style.scss";
+
+// import charities style
+@import "../components/charities/charities/style.scss";
+@import "../components/charities/selectedCharity/style.scss";
+@import "../components/charities/confirmedCharity/style.scss";
+@import "../components/charities/contactUs/style.scss";
+
+// import donation style
+@import "../components/donation/setDonationLevel/style.scss";
+
+// import account styles
+@import "../components/accountConnection/main/style.scss";
+@import "../components/accountConnection/moneyhub/availableBanks/style.scss";
+@import "../components/accountConnection/moneyhub/bankConnection/style.scss";
+@import "../components/accountConnection/complete/style.scss";
+
+// import home style
+@import "../components/home/style.scss";
+
+// import mainSettings style
+@import "../components/mainSettings/style.scss";
+@import "../components/mainSettings/unlinkMoneyhub/style.scss";
+@import "../components/mainSettings/privacyPolicy/style.scss";
+@import "../components/mainSettings/about/style.scss";
+@import "../components/mainSettings/support/style.scss";
+@import "../components/mainSettings/newCharityRequest/style.scss";
+@import "../components/mainSettings/askQuestion/style.scss";
+@import "../components/mainSettings/leaveFeedback/style.scss";
+@import "../components/mainSettings/changePassword/style.scss";
+@import "../components/mainSettings/donationPot/style.scss";

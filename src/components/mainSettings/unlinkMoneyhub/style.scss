@@ -1,0 +1,41 @@
+.unlink-moneyhub-container {
+  height: 100vh;
+  .unlink-moneyhub-wrapper {
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .unlink-moneyhub-content {
+      .title {
+        font-family: $font-poppins;
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        color: #222222;
+        font-weight: bold;
+        margin-bottom: 1.6rem;
+      }
+      .description {
+        margin-top: 3rem;
+        font-family: $font-inter;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        color: #535353;
+      }
+      .btn-group {
+        display: flex;
+        justify-content: center;
+        margin-top: 22rem;
+        button {
+          width: 27rem;
+          border: 0.1rem solid #A6A6A6;
+          border-radius: 1rem;
+          padding: 1.5rem 0;
+          font-family: $font-inter;
+          font-size: 1.8rem;
+          line-height: 2.2rem;
+          color: #535353;
+        }
+      }
+    }
+  }
+}

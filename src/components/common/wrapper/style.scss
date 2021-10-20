@@ -1,0 +1,29 @@
+.auth-wrapper {
+  display: flex;
+  height: 100vh;
+  .auth-left {
+    width: 60%;
+    background-color: $main-green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .form-wrapper {
+      .auth-title {
+        font-family: $font-poppins;
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        margin-bottom: 5rem;
+        color: $main-white;
+        // text-align: center;
+      }
+    }
+  }
+  .auth-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

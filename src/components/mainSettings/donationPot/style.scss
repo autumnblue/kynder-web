@@ -1,0 +1,204 @@
+.donation-pot-container {
+  height: 100vh;
+  .donation-pot-wrapper {
+    height: calc(100vh - 18rem);
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    .donation-pot-content {
+      .title {
+        font-family: $font-poppins;
+        color: #222222;
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        font-weight: bold;
+      }
+      .description {
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+        font-family: $font-inter;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        color: #535353;
+      }
+      .donation-pot-detail {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .donation-pot-status {
+          .donation-paused, .donation-cancelled {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.6rem;
+            .title {
+              margin-bottom: 0;
+            }
+          }
+          .title {
+            font-family: $font-inter;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #222222;
+            margin-bottom: 1.6rem;
+          }
+          .donation-pot-data {
+            display: flex;
+            align-items: center;
+            background-color: #FAF8F8;
+            box-shadow: 0px 0px 10px rgba(0, 69, 69, 0.2);
+            border-radius: 1rem;
+            &.active {
+              background-color: #008080;
+            }
+            .donation-value {
+              width: 20%;
+              padding: 3rem;
+              border-top-left-radius: 1rem;
+              border-bottom-left-radius: 1rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #222222;
+              font-size: 1.7rem;
+              &.active {
+                color: #FAF8F8;
+              }
+            }
+            .donation-active {
+              flex: 1;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 0 2rem;
+              background-color: #FAF8F8;
+              align-self: normal;
+              border-top-right-radius: 1rem;
+              border-bottom-right-radius: 1rem;
+              &.active {
+                border-top-left-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+              }
+              .btn {
+                display: flex;
+                align-items: center;
+                &:hover {
+                  cursor: pointer;
+                  opacity: 0.8;
+                }
+                &:last-child {
+                  margin-top: 1.5rem;
+                }
+                span {
+                  margin-left: 1.4rem;
+                  font-family: $font-inter;
+                  font-size: 1.4rem;
+                  line-height: 1.8rem;
+                  color: #535353;
+                }
+              }
+              .option-inactive {
+                .donation-date {
+                  font-family: $font-inter;
+                  font-size: 1.6rem;
+                  line-height: 1.9rem;
+                  color: #222222;
+                }
+                .next-donation {
+                  margin-top: 1.6rem;
+                  font-family: $font-inter;
+                  font-size: 1.4rem;
+                  line-height: 1.7rem;
+                  color: #8E8E8E;
+                }
+              }
+              .menu-icon {
+                &:hover {
+                  cursor: pointer;
+                  opacity: 0.8;
+                }
+              }
+            }
+            .donation-inactive {
+              display: flex;
+              align-items: center;
+              background-color: #008080;
+              border-radius: 0.5rem;
+              padding: 1.5rem 1.6rem;
+              &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+              }
+              span {
+                margin-left: 0.5rem;
+                color: #FAF8F8;
+              }
+            }
+          }
+          .moneyhub-description {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 1rem;
+            .title {
+              font-family: $font-inter;
+              font-size: 1.6rem;
+              line-height: 2rem;
+              color: #535353;
+              font-weight: normal;
+              margin-bottom: 0;
+            }
+            img {
+              width: 30%;
+              &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+              }
+            }
+          }
+        }
+        .selected-charity {
+          margin-left: 3rem;
+          .label {
+            font-family: $font-inter;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #222222;
+            margin-bottom: 1.6rem;
+            font-weight: bold;
+          }
+          .charity-content {
+            display: flex;
+            width: 37rem;
+            box-shadow: 0px 0px 10px rgba(0, 69, 69, 0.2);
+            border-radius: 1rem;
+            padding: 1rem 1.4rem;
+            .logo-wrapper {
+              width: 7.2rem;
+              height: 6rem;
+              img {
+                width: 100%;
+                object-fit: contain;
+              }
+            }
+            .charity-detail {
+              margin-left: 2.8rem;
+              .charity-name {
+                font-family: $font-inter;
+                font-size: 1.5rem;
+                line-height: 1.8rem;
+                color: #222222;
+              }
+              .charity-headline {
+                font-family: $font-inter;
+                font-weight: 500;
+                font-size: 1.1rem;
+                line-height: 1.3rem;
+                color: #8E8E8E;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

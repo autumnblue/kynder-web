@@ -1,0 +1,52 @@
+.recovery-code-container {
+  .pin-wrapper {
+    position: relative;
+    margin-top: 11rem;
+    &.error {
+      .pincode-input-container {
+        & > input {
+          border: 0.2rem solid #B9000B !important;
+          background-color: #816A6F !important;
+        }
+      }
+    }
+    .pincode-input-container {
+      & > input {
+        border: none !important;
+        width: 4.4rem !important;
+        height: 5.6rem !important;
+        background-color: rgba(250,248,248,0.2) !important;
+        opacity: 0.5 !important;
+        border-radius: 0.5rem !important;
+        margin-right: 1rem !important;
+        font-size: 3.4rem !important;
+        line-height: 4.1rem !important;
+        color: $main-white !important;
+      }
+    }
+    .animation-loader {
+      position: absolute;
+      left: 7rem;
+    }
+    .error-message {
+      margin-top: 2.6rem;
+      font-family: $font-inter;
+      color: $main-white;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+    }
+    .resend-code {
+      position: absolute;
+      margin-top: 6rem;
+      font-family: $font-inter;
+      color: $main-white;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      left: 6.5rem;
+      &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+}

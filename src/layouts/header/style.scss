@@ -1,0 +1,62 @@
+.header-container {
+  &.green {
+    background-color: $main-green;
+  }
+  &.white {
+    background-color: $main-white;
+  }
+  padding: 2.4rem 13.4rem;
+  @media screen and (max-width: 1120px) {
+    padding: 2.4rem 5rem;
+  }
+  @media screen and (max-width: 992px) {
+    padding: 2.4rem 2rem;
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left {
+    img {
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+  }
+  .right {
+    a {
+      background-color: $main-green;
+      border: none;
+      padding: 0.9rem 2.65rem;
+      font-family: $font-inter;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2rem;
+      color: $white;
+      &:active {
+        outline: 0;
+      }
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+    button {
+      background-color: $main-green;
+      border: none;
+      padding: 0.9rem 2.65rem;
+      font-family: $font-inter;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2rem;
+      color: $white;
+      &:active {
+        outline: 0;
+      }
+      &:last-child {
+        border: 0.1rem solid $main-white;
+        border-radius: 0.7rem;
+      }
+    }
+  }
+}

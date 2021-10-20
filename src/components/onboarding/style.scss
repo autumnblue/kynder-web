@@ -1,0 +1,39 @@
+.onboarding-container {
+  background-color: $main-green;
+  height: calc(100vh - 8.9rem);
+  padding: 0 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .carousel {
+    .slide {
+      background-color: #008080;
+      .carousel-item {
+        .title {
+          font-size: 3.6rem;
+          line-height: 5.4rem;
+          color: $main-white;
+          font-weight: bold;
+          font-family: $font-poppins;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+        .description, .sub-description {
+          font-family: $font-inter;
+          font-size: 1.8rem;
+          line-height: 2.3rem;
+          color: $main-white;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+    .control-dots {
+      bottom: -1rem;
+    }
+  }
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+}
